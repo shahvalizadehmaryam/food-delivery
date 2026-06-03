@@ -2,7 +2,7 @@ import BannerSearch from "./BannerSearch";
 
 export default function BannerContent() {
   return (
-    <div className="flex flex-col justify-center gap-6 py-8 lg:py-12">
+    <div className="flex flex-col justify-center gap-6 py-8 px-7 lg:py-12">
       <p className="text-sm text-secondary sm:text-base">
         Order Restaurant food, takeaway and groceries.
       </p>

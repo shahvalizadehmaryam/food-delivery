@@ -1,5 +1,11 @@
 @import "tailwindcss";
+
+/* Tailwind v4: explicitly scan all source files (incl. "use client" components). */
+@source "../**/*.{ts,tsx}";
+
 @theme {
+  --font-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+
   --color-primary: #fc8a06;
   --color-primary-foreground: #ffffff;
 
@@ -12,6 +18,7 @@
   --color-muted: #f9f9f9;
   --color-muted-foreground: #6b7280;
 
+  --color-card: #fbfbfb;
   --color-border: #e5e7eb;
 
   --color-success: #16a34a;

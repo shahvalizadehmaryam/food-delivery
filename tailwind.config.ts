@@ -1,4 +1,7 @@
-const tailwindConfig = {
+// tailwind.config.ts
+import type { Config } from "tailwindcss";
+
+const config: Config = {
   content: [
     "./src/**/*.{ts,tsx}",
     "./features/**/*.{ts,tsx}",
@@ -14,4 +17,4 @@ const tailwindConfig = {
   plugins: [],
 };
 
-export default tailwindConfig;
+export default config;

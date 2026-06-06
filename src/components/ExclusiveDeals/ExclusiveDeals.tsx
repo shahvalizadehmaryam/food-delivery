@@ -15,7 +15,7 @@ export default function ExclusiveDeals() {
   );
 
   return (
-    <section className="py-10">
+    <section className="py-8">
       <div className="mb-6 flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
         <h2 className="text-2xl font-bold text-secondary">
           Up to -40% 🎊 Order.uk exclusive deals

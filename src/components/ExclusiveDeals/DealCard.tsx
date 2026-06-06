@@ -19,14 +19,14 @@ function DealCard({ deal }: DealCardProps) {
         className="object-cover transition group-hover:scale-105"
       />
 
-      <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/25 to-black/10" />
+      <div className="absolute inset-0 bg-gradient-to-t from-secondary/75 via-secondary/25 to-secondary/10" />
 
-      <span className="absolute right-4 top-4 rounded-md bg-secondary px-2.5 py-1 text-sm font-bold text-white">
+      <span className="absolute right-4 top-0 rounded-md bg-secondary px-4 py-3 text-sm font-bold text-white">
         {deal.discount}
       </span>
 
-      <div className="absolute bottom-4 left-4 right-4">
-        <p className="text-sm font-medium text-primary">Restaurant</p>
+      <div className="absolute bottom-6 left-5 right-5">
+        <p className="text-md font-medium text-primary">Restaurant</p>
         <p className="text-lg font-bold text-white sm:text-xl">
           {deal.restaurantName}
         </p>

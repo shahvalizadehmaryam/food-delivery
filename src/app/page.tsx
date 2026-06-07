@@ -1,6 +1,7 @@
 import Banner from "@/components/Banner/Banner";
 import Categories from "@/components/Categories/Categories";
 import ExclusiveDeals from "@/components/ExclusiveDeals/ExclusiveDeals";
+import GetTheApp from "@/components/GetTheApp/GetTheApp";
 import PopularRestaurants from "@/components/PopularRestaurants/PopularRestaurants";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <ExclusiveDeals />
       <Categories />
       <PopularRestaurants />
+      <GetTheApp />
     </main>
   );
 }

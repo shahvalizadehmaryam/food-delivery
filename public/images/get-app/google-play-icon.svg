@@ -1,0 +1,7 @@
+<svg width="24" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <path d="M1.5 1.5L12.5 12L1.5 22.5V1.5Z" fill="#4285F4"/>
+  <path d="M1.5 1.5L12.5 12L1.5 12V1.5Z" fill="#34A853"/>
+  <path d="M1.5 22.5L12.5 12L1.5 12V22.5Z" fill="#FBBC04"/>
+  <path d="M12.5 12L1.5 1.5L12.5 6.5V12Z" fill="#EA4335"/>
+  <path d="M12.5 12L1.5 22.5L12.5 17.5V12Z" fill="#4285F4"/>
+</svg>

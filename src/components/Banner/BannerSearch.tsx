@@ -13,7 +13,7 @@ export default function BannerSearch() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex w-full max-w-md  rounded-full border border-border bg-white shadow-sm"
+      className="flex w-full max-w-sm  rounded-full border border-border bg-white shadow-sm"
     >
       <label htmlFor="hero-postcode" className="sr-only">
         Postcode

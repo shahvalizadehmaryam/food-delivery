@@ -1,7 +1,7 @@
-import Banner from "../components/Banner/Banner";
-import Categories from "../components/Categories/Categories";
-import ExclusiveDeals from "../components/ExclusiveDeals/ExclusiveDeals";
-import PopularRestaurants from "../components/PopularRestaurants/PopularRestaurants";
+import Banner from "@/components/Banner/Banner";
+import Categories from "@/components/Categories/Categories";
+import ExclusiveDeals from "@/components/ExclusiveDeals/ExclusiveDeals";
+import PopularRestaurants from "@/components/PopularRestaurants/PopularRestaurants";
 
 export default function Home() {
   return (

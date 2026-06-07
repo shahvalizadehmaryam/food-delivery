@@ -18,8 +18,21 @@
         "name": "next"
       }
     ],
+    "baseUrl": "src/",
     "paths": {
-      "@/*": ["./*"]
+      "@/constants/*": ["constants/*"],
+      "@/styles/*": ["styles/*"],
+      "@/components/*": ["components/*"],
+      "@/features/*": ["features/*"],
+      "@/ui/*": ["ui/*"],
+      "@/hooks/*": ["hooks/*"],
+      "@/lib/*": ["lib/*"],
+      "@/types/*": ["types/*"],
+      "@/utils/*": ["utils/*"],
+      "@/shared/*": ["shared/*"],
+      "@/api/*": ["api/*"],
+      "@/providers/*": ["providers/*"],
+      "@/store/*": ["store/*"]
     }
   },
   "include": [

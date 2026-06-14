@@ -1,6 +1,6 @@
-@import "tailwindcss";
+@import "tailwindcss" source("..");
 
-/* Tailwind v4: explicitly scan all source files (incl. "use client" components). */
+/* Scan all TS/TSX under src/ (path is relative to this file). */
 @source "../**/*.{ts,tsx}";
 
 @theme {
@@ -24,6 +24,8 @@
   --color-success: #16a34a;
   --color-warning: #f59e0b;
   --color-danger: #dc2626;
+
+  --color-menu-accent: #ffcc00;
 }
 body {
   background-color: var(--color-background);

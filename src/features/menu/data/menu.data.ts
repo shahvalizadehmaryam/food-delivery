@@ -102,7 +102,59 @@ const fries: MenuItem[] = [
   },
 ];
 
+const coldDrinks: MenuItem[] = [
+  {
+    id: 13,
+    title: "Royal Cheese Burger with extra Fries",
+    description:
+      "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+    price: 23.1,
+    image: "/images/menu/cold-drinks/cold-drink-1.svg",
+  },
+  {
+    id: 14,
+    title: "The classics for 3",
+    description:
+      "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+    price: 26.6,
+    image: "/images/menu/cold-drinks/cold-drink-2.svg",
+  },
+  {
+    id: 15,
+    title: "Royal Cheese Burger with extra Fries",
+    description:
+      "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+    price: 25.12,
+    image: "/images/menu/cold-drinks/cold-drink-3.svg",
+  },
+  {
+    id: 16,
+    title: "The classics for 2",
+    description:
+      "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+    price: 27.6,
+    image: "/images/menu/cold-drinks/cold-drink-4.svg",
+  },
+  {
+    id: 17,
+    title: "Royal Cheese Burger with extra Fries",
+    description:
+      "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+    price: 21.12,
+    image: "/images/menu/cold-drinks/cold-drink-5.svg",
+  },
+  {
+    id: 18,
+    title: "Royal Cheese Burger with extra Fries",
+    description:
+      "1 McChicken™, 1 Big Mac™, 1 Royal Cheeseburger, 3 medium sized French Fries, 3 cold drinks",
+    price: 17.4,
+    image: "/images/menu/cold-drinks/cold-drink-6.svg",
+  },
+];
+
 export const menuSections: MenuSection[] = [
   { title: "Burgers", items: burgers },
   { title: "Fries", items: fries },
+  { title: "Cold Drinks", items: coldDrinks },
 ];
